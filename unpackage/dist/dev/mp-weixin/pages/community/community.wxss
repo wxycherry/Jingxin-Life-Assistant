@@ -1,0 +1,140 @@
+
+.content {
+	background-color: #f2f2f4;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.plus {
+	position: fixed;
+	right: 0;
+	bottom: 50px;
+	z-index: 999;
+}
+.top {
+	width: 90%;
+	height: 30%;
+	background-color: white;
+	margin: 20px;
+	border-radius: 15px;
+}
+.bgc {
+	width: 110px;
+	height: 10px;
+	background-color: #fde3b0;
+	position: relative;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	margin-left: 15px;
+}
+.scroll {
+	width: 95%;
+	margin: 12px;
+}
+.hot-topic {
+	font-weight: bold;
+	font-size: 22px;
+	position: absolute;
+	left: 10px;
+	bottom: -6px;
+}
+.images {
+	width: 90px;
+	height: 90px;
+	border-radius: 10px;
+	margin: 6px;
+}
+.bottom {
+	width: 90%;
+	height: 70%;
+	background-color: white;
+	border-radius: 15px;
+	margin-bottom: 10px;
+}
+.bgc1 {
+	width: 65px;
+	height: 10px;
+	/* background-color: #fde3b0; */
+	position: relative;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	margin-left: 15px;
+}
+.title {
+	display: flex;
+}
+.hot-topic1 {
+	font-weight: 500;
+	font-size: 22px;
+	position: absolute;
+	left: 10px;
+	bottom: -6px;
+	color: #747474;
+}
+.active {
+	background-color: #fde3b0 !important;
+}
+.main {
+	width: 90%;
+	/* height: 800px; */
+	/* background-color: red; */
+	margin-left: 15px;
+}
+.comment-section {
+	margin-top: 10px;
+	width: 90%;
+	padding: 20px;
+	background-color: #f9f9f9;
+	border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.comment-header {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.avatar {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.username {
+	font-size: 18px;
+	font-weight: bold;
+}
+.date {
+	margin-left: auto;
+	color: #888;
+	font-size: 14px;
+}
+.tags {
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: #1B77FB;
+}
+.comment-content {
+	color: #333;
+	font-size: 16px;
+	line-height: 1.6;
+}
+.actions {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+	font-size: 14px;
+	color: #555;
+}
+.actions ._div {
+	text-align: center;
+}
+.actions ._div:not(:last-child) {
+	margin-right: 10px;
+}
+.iconfont {
+	display: flex;
+	flex-direction: row;
+}
+

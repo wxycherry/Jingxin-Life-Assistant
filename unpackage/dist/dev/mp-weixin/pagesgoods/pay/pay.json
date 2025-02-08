@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "确认支付",
+  "navigationBarBackgroundColor": "#393836",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#5C4CD9",
+  "usingComponents": {
+    "u-line": "/uni_modules/uview-ui/components/u-line/u-line"
+  }
+}

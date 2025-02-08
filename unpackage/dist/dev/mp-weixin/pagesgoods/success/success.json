@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "u-no-network": "/uni_modules/uview-ui/components/u-no-network/u-no-network",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon"
+  }
+}

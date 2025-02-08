@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我要发圈",
+  "navigationBarBackgroundColor": "#1B77FB",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#5C4CD9",
+  "usingComponents": {
+    "u--textarea": "/uni_modules/uview-ui/components/u--textarea/u--textarea"
+  }
+}

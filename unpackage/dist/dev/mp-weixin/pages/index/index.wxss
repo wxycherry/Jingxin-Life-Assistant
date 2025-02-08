@@ -1,0 +1,84 @@
+
+.content {
+  width: 100%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  font-size: 20px;
+}
+.middle {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.camera {
+  margin-top: -60px;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%; /* 设置为圆形 */
+  border: 5px solid #3c9cFF; /* 添加蓝色外边框 */
+  overflow: hidden; /* 确保内容不会溢出 */
+}
+
+/* 骨架屏 */
+.camera-skeleton {
+  margin-top: -60px;
+  width: 280px;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 骨架屏 */
+.skeleton-circle {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  border: 5px solid #3c9cFF;
+  background-color: #f1fcff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon{
+	width: 80%;
+	height: 70%;
+	margin-bottom: 20px;
+}
+.btn {
+  width: 80%;
+  background-color: #3c9cFF;
+  color: white;
+  margin-top: 20px;
+}
+.btn:active {
+  background-color: #227aff;
+}
+.bottom {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.history {
+  color: #aaaaaa;
+}
+.history:active {
+  color: #3c9cFF;
+}
+

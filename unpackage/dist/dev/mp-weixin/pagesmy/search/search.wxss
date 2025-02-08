@@ -1,0 +1,97 @@
+
+.content {
+	background-color: #f2f2f4;
+	width: 100%;
+	/* height: 750px; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.bgc {
+	width: 100%;
+	height: 200px;
+	margin-bottom: 15px;
+}
+.doctor-card {
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	width: 95%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.doctor-info {
+	display: flex;
+	align-items: center;
+	padding: 16px;
+}
+.doctor-photo {
+	width: 60px;
+	height: 60px;
+	margin-right: 16px;
+}
+.doctor-details ._h2 {
+	margin: 0;
+	font-size: 18px;
+}
+.doctor-details ._p {
+	margin: 5px 0;
+	color: #666;
+}
+.tags {
+	display: flex;
+	gap: 8px;
+	margin-top: 10px;
+}
+.tag {
+	background-color: #e0e0e0;
+	border-radius: 4px;
+	padding: 2px 8px;
+	font-size: 12px;
+	color: #333;
+}
+.money {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.consult-button {
+	width: 60px;
+	height: 30px;
+	background-color: #ffd700;
+	border: none;
+	border-radius: 20px;
+	font-size: 14px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+.money ._p {
+	color: #555;
+	font-size: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.doctor-introduction {
+	padding: 10px;
+	width: 85%;
+	background-color: #f0f0f0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+.doctor-introduction ._h3 {
+	margin-top: 0;
+	font-size: 16px;
+	color: #333;
+}
+.doctor-introduction ._p {
+	margin: 5px 0;
+	font-size: 14px;
+	color: #555;
+}
+
