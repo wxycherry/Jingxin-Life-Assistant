@@ -100,20 +100,11 @@ __webpack_require__.r(__webpack_exports__);
 var components
 try {
   components = {
-    uToast: function () {
-      return __webpack_require__.e(/*! import() | uni_modules/uview-ui/components/u-toast/u-toast */ "uni_modules/uview-ui/components/u-toast/u-toast").then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-toast/u-toast.vue */ 256))
-    },
-    uCode: function () {
-      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-code/u-code */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-code/u-code")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-code/u-code.vue */ 263))
-    },
-    uButton: function () {
-      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-button/u-button */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-button/u-button")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-button/u-button.vue */ 271))
-    },
     uRadioGroup: function () {
-      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-radio-group/u-radio-group */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-radio-group/u-radio-group")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-radio-group/u-radio-group.vue */ 281))
+      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-radio-group/u-radio-group */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-radio-group/u-radio-group")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-radio-group/u-radio-group.vue */ 256))
     },
     uRadio: function () {
-      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-radio/u-radio */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-radio/u-radio")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-radio/u-radio.vue */ 289))
+      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-radio/u-radio */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-radio/u-radio")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-radio/u-radio.vue */ 264))
     },
   }
 } catch (e) {
@@ -201,26 +192,69 @@ exports.default = void 0;
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var _default = {
   data: function data() {
     return {
-      value: '',
+      account: '',
+      password: '',
+      account1: '',
+      password1: '',
+      password2: '',
+      code: '',
       tips: '',
-      value1: 'false',
-      seconds: 60
+      value1: 'true',
+      seconds: 60,
+      iscode: false,
+      ispassword: true,
+      signin: true,
+      register: false
     };
   },
   methods: {
     toTabBarPage: function toTabBarPage() {
-      uni.switchTab({
-        url: '/pages/index/index',
-        success: function success() {
-          console.log('跳转成功');
-        },
-        fail: function fail(err) {
-          console.error('跳转失败', err);
-        }
-      });
+      this.ispassword = true;
+      if (this.account == "admin" && this.password == "123456") {
+        uni.showToast({
+          title: '登录成功',
+          icon: 'success',
+          duration: 1000
+        });
+        setTimeout(function () {
+          uni.switchTab({
+            url: '/pages/index/index',
+            success: function success() {
+              console.log('跳转成功');
+            },
+            fail: function fail(err) {
+              console.error('跳转失败', err);
+            }
+          });
+        }, 2000);
+      } else {
+        uni.showToast({
+          title: '账号或密码有误',
+          icon: 'none'
+        });
+      }
     },
     codeChange: function codeChange(text) {
       this.tips = text;
@@ -248,6 +282,17 @@ var _default = {
     },
     start: function start() {
       uni.$u.toast('倒计时开始');
+    },
+    getcode: function getcode() {
+      this.iscode = true;
+    },
+    totoregister: function totoregister() {
+      this.register = true;
+      this.signin = false;
+    },
+    totosignin: function totosignin() {
+      this.register = false;
+      this.signin = true;
     }
   }
 };

@@ -103,6 +103,8 @@
 
 	.btn {
 		width: 90%;
+		margin-top: 20px;
+		margin-bottom: 20px;
 		/* margin-left: 3%; */
 
 	}
@@ -163,6 +165,6 @@
 		font-weight: bold;
 		position: relative;
 		left: 160px;
-		top: 7px;
+		top: 4px;
 	}
 </style>

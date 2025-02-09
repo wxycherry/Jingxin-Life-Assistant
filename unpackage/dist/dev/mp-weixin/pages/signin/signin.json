@@ -2,9 +2,6 @@
   "navigationStyle": "custom",
   "navigationBarTextStyle": "white",
   "usingComponents": {
-    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast",
-    "u-code": "/uni_modules/uview-ui/components/u-code/u-code",
-    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
     "u-radio-group": "/uni_modules/uview-ui/components/u-radio-group/u-radio-group",
     "u-radio": "/uni_modules/uview-ui/components/u-radio/u-radio"
   }
