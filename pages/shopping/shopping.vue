@@ -21,65 +21,77 @@
 	export default {
 		data() {
 			return {
-				products: [{
-						image: 'https://tse2-mm.cn.bing.net/th/id/OIP-C.zK0tU8SLEEF_ufwSDdZFKAAAAA?rs=1&pid=ImgDetMain',
-						title: '番茄红素沙棘果油软胶囊',
+				products: [
+					{
+						image: 'https://ts1.cn.mm.bing.net/th/id/R-C.4881fea03fb71a8f0d2bd295d3d766de?rik=n3hoPewn5XXxEA&riu=http%3a%2f%2fm.360buyimg.com%2fn12%2fjfs%2ft2290%2f28%2f1862041609%2f199610%2fc4f7622a%2f56dfc4bfN913b48e1.jpg!q70.jpg&ehk=qfylY%2bqPX8tQOBPYWhsTR1SVjPrkKVqlBbqkEPP2VQU%3d&risl=&pid=ImgRaw&r=0',
+						title: '桂格即食燕麦片',
+						price: 45,
+						sales: 20123
+					},{
+						image: 'https://img.alicdn.com/bao/uploaded/i1/94050694/O1CN01gssXVK1GztZ1NrSKn_!!94050694.jpg',
+						title: '海藻保湿补水面膜',
 						price: 400,
-						sales: 5206
+						sales: 8652
 					},
 					{
-						image: 'https://tse2-mm.cn.bing.net/th/id/OIP-C.zK0tU8SLEEF_ufwSDdZFKAAAAA?rs=1&pid=ImgDetMain',
-						title: '番茄红素沙棘果油软胶囊',
-						price: 400,
-						sales: 5206
+						image: 'https://tse4-mm.cn.bing.net/th/id/OIP-C.S82MVq0hG4KnZEfSBh63CQHaEK?rs=1&pid=ImgDetMain',
+						title: '滚珠式眼部按摩仪',
+						price: 268,
+						sales: 6321 
 					},
 					{
-						image: 'https://tse2-mm.cn.bing.net/th/id/OIP-C.zK0tU8SLEEF_ufwSDdZFKAAAAA?rs=1&pid=ImgDetMain',
-						title: '番茄红素沙棘果油软胶囊',
-						price: 400,
-						sales: 5206
+						image: 'https://img.yaopinnet.com/img500/202112/c73y3y1638973346.jpg',
+						title: '蓝莓叶黄素酯压片糖果 ',
+						price: 158,
+						sales: 7890
 					},
 					{
-						image: 'https://tse2-mm.cn.bing.net/th/id/OIP-C.zK0tU8SLEEF_ufwSDdZFKAAAAA?rs=1&pid=ImgDetMain',
-						title: '番茄红素沙棘果油软胶囊',
-						price: 400,
-						sales: 5206
+						image: 'https://tse3-mm.cn.bing.net/th/id/OIP-C.AyEWAKim6hh7DNMqLDI5xAHaHa?rs=1&pid=ImgDetMain',
+						title: '天然植物精华眼霜',
+						price: 399,
+						sales: 5986
 					},
 					{
-						image: 'https://tse2-mm.cn.bing.net/th/id/OIP-C.zK0tU8SLEEF_ufwSDdZFKAAAAA?rs=1&pid=ImgDetMain',
-						title: '番茄红素沙棘果油软胶囊',
-						price: 400,
-						sales: 5206
+						image: 'https://pic3.zhimg.com/50/v2-deaad83ef692183467027684313eca7e_720w.jpg?source=1940ef5c',
+						title: '无印良品护眼台灯',
+						price: 359,
+						sales: 4850 
 					},
 					{
-						image: 'https://tse2-mm.cn.bing.net/th/id/OIP-C.zK0tU8SLEEF_ufwSDdZFKAAAAA?rs=1&pid=ImgDetMain',
-						title: '番茄红素沙棘果油软胶囊',
-						price: 400,
-						sales: 5206
+						image: 'https://m.360buyimg.com/mobilecms/s750x750_jfs/t1/118411/14/10498/420564/5eec70c8E3469ac8b/5b4122c3d2949502.jpg',
+						title: '综合坚果礼盒',
+						price: 198,
+						sales: 9023 
 					},
 					{
-						image: 'https://tse2-mm.cn.bing.net/th/id/OIP-C.zK0tU8SLEEF_ufwSDdZFKAAAAA?rs=1&pid=ImgDetMain',
-						title: '番茄红素沙棘果油软胶囊',
-						price: 400,
-						sales: 5206
+						image: 'https://cbu01.alicdn.com/img/ibank/2019/471/984/12774489174_1025357403.jpg',
+						title: '美的智能体脂秤',
+						price: 129,
+						sales: 3568
 					},
 					{
-						image: 'https://tse2-mm.cn.bing.net/th/id/OIP-C.zK0tU8SLEEF_ufwSDdZFKAAAAA?rs=1&pid=ImgDetMain',
-						title: '番茄红素沙棘果油软胶囊',
-						price: 400,
-						sales: 5206
+						image: 'https://imgservice.suning.cn/uimg1/b2c/image/Z-fz83hX0Abzji4JYFyplQ==.jpg_800w_800h_4e',
+						title: '珍视明滴眼液',
+						price: 15,
+						sales: 23456 
 					},
 					{
-						image: 'https://tse2-mm.cn.bing.net/th/id/OIP-C.zK0tU8SLEEF_ufwSDdZFKAAAAA?rs=1&pid=ImgDetMain',
-						title: '番茄红素沙棘果油软胶囊',
-						price: 400,
-						sales: 5206
+						image: 'https://pic2.zhimg.com/v2-d1b6c9c0e1cbfc8e37f6f382bba5bc6f_1440w.jpg?source=172ae18b',
+						title: '理 * 泉 B5 多效修复霜',
+						price: 108,
+						sales: 15632
 					},
 					{
-						image: 'https://tse2-mm.cn.bing.net/th/id/OIP-C.zK0tU8SLEEF_ufwSDdZFKAAAAA?rs=1&pid=ImgDetMain',
-						title: '番茄红素沙棘果油软胶囊',
-						price: 400,
-						sales: 5206
+						image: 'https://hqsx-1258552171.file.myqcloud.com/uploads/2022/09/20220909003248512.jpg',
+						title: '雅 * 兰黛小棕瓶眼霜',
+						price: 530,
+						sales: 12589
+					},
+					{
+						image: 'https://m.360buyimg.com/mobilecms/s750x750_jfs/t1/100413/7/6964/179600/5df84814E23ca1689/8f714b0de440c0d0.jpg!q80.dpg',
+						title: '良品铺子每日坚果礼盒',
+						price:199,
+						sales: 18765
 					}
 				]
 			};
@@ -124,9 +136,9 @@
 	}
 
 	.product-image {
-		width: 40%;
+		width: 70%;
 		margin-top: 10px;
-		margin-left: 31%;
+		margin-left: 15%;
 		height: 100px;
 	}
 
@@ -144,6 +156,7 @@
 		font-size: 18px;
 		color: #e60012;
 		margin-bottom: 5px;
+		margin-right: 20px;
 	}
 
 	.product-sales {
@@ -155,6 +168,7 @@
 	}
 
 	.product-sales span {
+		width: 80px;
 		background-color: #dbdffb;
 		padding: 2px 5px;
 		border-radius: 50px;

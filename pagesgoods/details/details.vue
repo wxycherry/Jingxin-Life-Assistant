@@ -8,40 +8,40 @@
 					<swiper circular>
 						<swiper-item>
 							<image mode="aspectFill"
-								src="https://yanxuan-item.nosdn.127.net/99c83709ca5f9fd5c5bb35d207ad7822.png" />
+								src="https://ts1.cn.mm.bing.net/th/id/R-C.4881fea03fb71a8f0d2bd295d3d766de?rik=n3hoPewn5XXxEA&riu=http%3a%2f%2fm.360buyimg.com%2fn12%2fjfs%2ft2290%2f28%2f1862041609%2f199610%2fc4f7622a%2f56dfc4bfN913b48e1.jpg!q70.jpg&ehk=qfylY%2bqPX8tQOBPYWhsTR1SVjPrkKVqlBbqkEPP2VQU%3d&risl=&pid=ImgRaw&r=0" />
 						</swiper-item>
 						<swiper-item>
 							<image mode="aspectFill"
-								src="https://yanxuan-item.nosdn.127.net/f9107d47c08f0b99c097e30055c39e1a.png" />
+								src="https://m.360buyimg.com/mobilecms/s750x750_jfs/t1/181972/4/33552/117171/6424eff2Ff52c663c/999f905c6b46d9a1.jpg!q80.dpg" />
 						</swiper-item>
 						<swiper-item>
 							<image mode="aspectFill"
-								src="https://yanxuan-item.nosdn.127.net/754c56785cc8c39f7414752f62d79872.png" />
+								src="https://tse4-mm.cn.bing.net/th/id/OIP-C.Fjb5y1wDjpQguDKPINjVZAHaHa?rs=1&pid=ImgDetMain" />
 						</swiper-item>
 						<swiper-item>
 							<image mode="aspectFill"
-								src="https://yanxuan-item.nosdn.127.net/ef16f8127610ef56a2a10466d6dae157.jpg" />
+								src="https://m.360buyimg.com/mobilecms/s750x750_jfs/t1/122203/28/39194/113276/6476f5daF30422886/ad98fa84a99bc4ec.jpg!q80.dpg" />
 						</swiper-item>
 						<swiper-item>
 							<image mode="aspectFill"
-								src="https://yanxuan-item.nosdn.127.net/1f0c3f5d32b0e804deb9b3d56ea6c3b2.png" />
+								src="https://m.360buyimg.com/mobilecms/s750x750_jfs/t1/183605/5/16681/235667/6103b126Ed4ffdf7e/0f5741b302cece0b.jpg" />
 						</swiper-item>
 					</swiper>
-					<view class="indicator">
+					<!-- <view class="indicator">
 						<text class="current">1</text>
 						<text class="split">/</text>
 						<text class="total">5</text>
-					</view>
+					</view> -->
 				</view>
 
 				<!-- 商品简介 -->
 				<view class="meta">
 					<view class="price">
 						<text class="symbol">¥</text>
-						<text class="number">29.90</text>
+						<text class="number">45/1000g</text>
 					</view>
-					<view class="name ellipsis">云珍·轻软旅行长绒棉方巾 </view>
-					<view class="desc"> 轻巧无捻小方巾，旅行便携 </view>
+					<view class="name ellipsis">桂格即食燕麦片 </view>
+					<view class="desc"> 富含膳食纤维，营养早餐优选  </view>
 				</view>
 
 				<!-- 操作面板 -->
@@ -61,16 +61,16 @@
 										alt="" />A***7</span>
 								<span class="review-date">2024/09/27</span>
 							</div>
-							<div class="review-content">好评！</div>
+							<div class="review-content">一直吃桂格的燕麦片，口感好，搭配牛奶很美味，早上吃一杯，饱腹感强，开启活力满满的一天 。</div>
 						</div>
 						<div class="review">
 							<div class="review-header">
 								<span class="review-user"><img class="touxiang"
 										src="https://tse3-mm.cn.bing.net/th/id/OIP-C.TcBhAP29KQ58b7Hzz2Rz2AAAAA?w=207&h=197&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-										alt="" />A***7</span>
-								<span class="review-date">2024/09/27</span>
+										alt="" />A***9</span>
+								<span class="review-date">2024/09/30</span>
 							</div>
-							<div class="review-content">好评！</div>
+							<div class="review-content">这款燕麦片很容易冲泡，营养丰富，家里老人小孩都喜欢</div>
 						</div>
 					</view>
 				</view>
@@ -97,15 +97,17 @@
 						<view class="popup-content">
 							<view class="product-info">
 								<image class="product-image"
-									src="https://yanxuan-item.nosdn.127.net/99c83709ca5f9fd5c5bb35d207ad7822.png" />
+									src="https://ts1.cn.mm.bing.net/th/id/R-C.4881fea03fb71a8f0d2bd295d3d766de?rik=n3hoPewn5XXxEA&riu=http%3a%2f%2fm.360buyimg.com%2fn12%2fjfs%2ft2290%2f28%2f1862041609%2f199610%2fc4f7622a%2f56dfc4bfN913b48e1.jpg!q70.jpg&ehk=qfylY%2bqPX8tQOBPYWhsTR1SVjPrkKVqlBbqkEPP2VQU%3d&risl=&pid=ImgRaw&r=0" />
 								<view class="product-price">
 									<text class="symbol">¥</text>
-									<text class="number">220.00</text>
+									<text class="number">45.00</text>
 								</view>
 							</view>
 							<view class="product-specs">
 								<p class="bold">规格</p>
-								<p class="tip1">宝萃健即溶茶固体饮料</p>
+								<p class="tip1">经典原味：桂格即食燕麦片 1000g 罐装</p>
+								<p class="tip3">高纤混合水果味：桂格即食燕麦片 700g 袋装</p>
+								<p class="tip3">醇香牛奶味：桂格即食燕麦片 600g 罐装</p>
 							</view>
 							<view class="product-quantity">
 								<p class="bold">数量</p>
@@ -425,7 +427,7 @@
 	}
 
 	.contant {
-		height: 250px;
+		height: 300px;
 		background-color: white;
 		width: 100%;
 		padding: 10px;
@@ -582,11 +584,23 @@
 	.tip1{
 		margin-right: 160px;
 		margin-left: 6px;
-		width: 50%;
+		width: 90%;
+		margin-bottom: 10px;
 		background-color:#EE7121 ;
 		color: white;
 		border-radius: 5px;
 		height: 35px;
+	}
+	.tip3{
+		margin-right: 160px;
+		margin-left: 6px;
+		width: 90%;
+		margin-bottom: 10px;
+		background-color:white;
+		color: black;
+		border-radius: 5px;
+		height: 35px;
+		border: 1px solid grey;
 	}
 	.tip2{
 		margin-right: 240px;

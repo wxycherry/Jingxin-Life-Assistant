@@ -233,7 +233,7 @@ swiper {
   font-size: 34rpx;
 }
 .contant {
-  height: 250px;
+  height: 300px;
   background-color: white;
   width: 100%;
   padding: 10px;
@@ -365,11 +365,23 @@ swiper {
 .tip1 {
   margin-right: 160px;
   margin-left: 6px;
-  width: 50%;
+  width: 90%;
+  margin-bottom: 10px;
   background-color: #EE7121;
   color: white;
   border-radius: 5px;
   height: 35px;
+}
+.tip3 {
+  margin-right: 160px;
+  margin-left: 6px;
+  width: 90%;
+  margin-bottom: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  height: 35px;
+  border: 1px solid grey;
 }
 .tip2 {
   margin-right: 240px;

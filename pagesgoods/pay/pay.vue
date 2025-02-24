@@ -1,10 +1,10 @@
 <template>
 	<view class="content">
-		<p class="demo">Demo订单</p>
-		<p class="yuan">￥15.00</p>
+		<p class="demo">您的订单</p>
+		<p class="yuan">￥45.00</p>
 		<view class="square">
 			<view class="in">收款方</view>
-			<view>上海叽里呱啦晴栀有限公司</view>
+			<view>睛彩智康科技有限公司</view>
 		</view>
 		<u-line color="#707070"></u-line>
 		<navigator url="/pagesgoods/success/success" class="nav">

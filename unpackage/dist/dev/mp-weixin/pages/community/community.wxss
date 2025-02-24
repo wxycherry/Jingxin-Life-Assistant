@@ -137,4 +137,8 @@
 	display: flex;
 	flex-direction: row;
 }
+.scroll-list__goods-item__text{
+	font-size: 13px;
+	color: #96c7fb;
+}
 

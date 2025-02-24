@@ -28,7 +28,7 @@
 		<view class="buttons">
 			<p class="password" @click="totoregister" v-if="signin">前去注册</p>
 			<p class="password " @click="totosignin" v-if="register">返回登录</p>
-			<p class="password" v-if="register">注册</p>
+			<p class="password" v-if="register" @click="sureregister">注册</p>
 			<p class="password" @click="toTabBarPage" v-if="signin">登录</p>
 		</view>
 		<!-- <p class="password"  @click="toTabBarPage">密码登录</p> -->
@@ -43,6 +43,12 @@
 </template>
 
 <script>
+	import {
+		signinAPI
+	} from '../../service/signin';
+	import {
+		registerAPI
+	} from '../../service/signin';
 	export default {
 		data() {
 			return {
@@ -53,7 +59,7 @@
 				password2: '',
 				code: '',
 				tips: '',
-				value1: 'true',
+				value1: true,
 				seconds: 60,
 				iscode: false,
 				ispassword: true,
@@ -62,31 +68,63 @@
 			}
 		},
 		methods: {
-			toTabBarPage() {
+			async toTabBarPage() {
 				this.ispassword = true;
+				//没有接口
 				if (this.account == "admin" && this.password == "123456") {
 					uni.showToast({
 						title: '登录成功',
 						icon: 'success',
 						duration: 1000
 					});
-					 setTimeout(() => {
-					      uni.switchTab({
-					        url: '/pages/index/index',
-					        success: () => {
-					          console.log('跳转成功');
-					        },
-					        fail: (err) => {
-					          console.error('跳转失败', err);
-					        }
-					      });
-					    }, 2000);
+					setTimeout(() => {
+						uni.switchTab({
+							url: '/pages/index/index',
+							success: () => {
+								console.log('跳转成功');
+							},
+							fail: (err) => {
+								console.error('跳转失败', err);
+							}
+						});
+					}, 2000);
 				} else {
 					uni.showToast({
 						title: '账号或密码有误',
 						icon: 'none'
 					});
 				}
+				//有接口
+				// if (this.account !== '' && this.password !== '') {
+				// 	const res = await signinAPI({
+				// 		userAccount: this.account,
+				// 		userPassword: this.password,
+				// 	});
+				// 	console.log(res)
+				// 	if (res.code === 200) {
+				// 		uni.showToast({
+				// 			title: '登录成功',
+				// 			icon: 'success',
+				// 			duration: 1000
+				// 		});
+				// 		setTimeout(() => {
+				// 			uni.switchTab({
+				// 				url: '/pages/index/index',
+				// 				success: () => {
+				// 					console.log('跳转成功');
+				// 				},
+				// 				fail: (err) => {
+				// 					console.error('跳转失败', err);
+				// 				}
+				// 			});
+				// 		}, 2000);
+				// 	} else {
+				// 		uni.showToast({
+				// 			title: '账号或密码有误',
+				// 			icon: 'none'
+				// 		});
+				// 	}
+				// }
 
 			},
 			codeChange(text) {
@@ -125,6 +163,23 @@
 			totosignin() {
 				this.register = false;
 				this.signin = true;
+			},
+			//注册
+			async sureregister() {
+				if (this.account1 !== '' && this.password1 !== '' && this.password2 !== '') {
+					const res = await registerAPI({
+						userAccount: this.account1,
+						userPassword: this.password1,
+						checkPassword: this.password2
+					});
+					console.log(res)
+				} else {
+					uni.showToast({
+						title: '请检查输入是否正确',
+						icon: 'none'
+					});
+				}
+
 			}
 		}
 	};

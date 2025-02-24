@@ -29,9 +29,9 @@
 	font-family: Arial, sans-serif;
 }
 .product-image {
-	width: 40%;
+	width: 70%;
 	margin-top: 10px;
-	margin-left: 31%;
+	margin-left: 15%;
 	height: 100px;
 }
 .product-info {
@@ -46,6 +46,7 @@
 	font-size: 18px;
 	color: #e60012;
 	margin-bottom: 5px;
+	margin-right: 20px;
 }
 .product-sales {
 	font-size: 14px;
@@ -55,6 +56,7 @@
 	align-items: center;
 }
 .product-sales ._span {
+	width: 80px;
 	background-color: #dbdffb;
 	padding: 2px 5px;
 	border-radius: 50px;

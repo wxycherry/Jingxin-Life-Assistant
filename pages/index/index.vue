@@ -104,7 +104,7 @@ export default {
             success: (res) => {
               this.photoUrl = res.tempImagePath;
               wx.showToast({
-                title: '拍照成功，正在识别...',
+                title: '正在识别...',
                 icon: 'loading'
               });
               this.recognizeFace(this.photoUrl); // 调用人脸识别
@@ -122,38 +122,55 @@ export default {
     },
     // 人脸识别
     recognizeFace(photoUrl) {
-      const uploadTask = wx.uploadFile({
-        url: 'https://your-server-url.com/recognize', // 替换为你的服务器地址
-        filePath: photoUrl,
-        name: 'file',
-        success: (uploadRes) => {
-          const data = JSON.parse(uploadRes.data);
-          if (data.success) {
-            wx.showToast({
-              title: '识别成功',
-              icon: 'success'
-            });
-            // 处理识别结果
-            console.log('识别结果:', data.result);
-          } else {
-            wx.showToast({
-              title: '识别失败',
-              icon: 'none'
-            });
-          }
-        },
-        fail: (err) => {
-          console.error('上传失败:', err);
-          wx.showToast({
-            title: '上传失败，请检查网络或服务器地址',
-            icon: 'none'
-          });
-        }
-      });
+		setTimeout(()=>{
+			wx.showToast({
+		  title: '识别成功',
+		  icon: 'success'
+		});
+		},3000)
+		setTimeout(()=>{
+			uni.switchTab({
+				url: '/pages/healthy/healthy',
+				success: () => {
+					console.log('跳转成功');
+				},
+				fail: (err) => {
+					console.error('跳转失败', err);
+				}
+			});
+		},4000)
+      // const uploadTask = wx.uploadFile({
+      //   url: 'https://your-server-url.com/recognize', // 替换为你的服务器地址
+      //   filePath: photoUrl,
+      //   name: 'file',
+      //   success: (uploadRes) => {
+      //     const data = JSON.parse(uploadRes.data);
+      //     if (data.success) {
+      //       wx.showToast({
+      //         title: '识别成功',
+      //         icon: 'success'
+      //       });
+      //       // 处理识别结果
+      //       console.log('识别结果:', data.result);
+      //     } else {
+      //       wx.showToast({
+      //         title: '识别失败',
+      //         icon: 'none'
+      //       });
+      //     }
+      //   },
+      //   fail: (err) => {
+      //     console.error('上传失败:', err);
+      //     wx.showToast({
+      //       title: '上传失败，请检查网络或服务器地址',
+      //       icon: 'none'
+      //     });
+      //   }
+      // });
 
-      uploadTask.onProgressUpdate((res) => {
-        console.log('上传进度:', res.progress);
-      });
+      // uploadTask.onProgressUpdate((res) => {
+      //   console.log('上传进度:', res.progress);
+      // });
     },
     // 摄像头错误处理
     cameraError(e) {

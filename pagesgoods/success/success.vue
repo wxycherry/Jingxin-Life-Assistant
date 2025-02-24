@@ -7,8 +7,8 @@
 			</view>
 			<text class="u-content__normal">支付成功</text>
 		</view>
-		<p class="name">上海叽里呱啦晴栀有限公司</p>
-		<p class="yuan">￥15.00</p>
+		<p class="name">睛彩智康科技有限公司</p>
+		<p class="yuan">￥45.00</p>
 		<navigator url="/pagesgoods/details/details" class="buy-now">
 			<button type="primary" @click="toTabBarPage" :plain="true" text="镂空" class="success">完成</button>
 		</navigator>

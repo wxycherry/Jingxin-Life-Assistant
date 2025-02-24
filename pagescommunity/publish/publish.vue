@@ -6,7 +6,7 @@
 					border="none"></u--textarea>
 
 			</view>
-			<button class="btn">发布</button>
+			<button class="btn" @click="publish">发布</button>
 		</view>
 	</view>
 </template>
@@ -20,6 +20,17 @@
 				border: true,
 				height: 500,
 				autoHeight: true,
+			}
+		},
+		methods:{
+			publish(){
+				setTimeout(()=>{
+					wx.showToast({
+				  title: '发布成功',
+				  icon: 'success'
+				});
+				})
+				
 			}
 		}
 	}

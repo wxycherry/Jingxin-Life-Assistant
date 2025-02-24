@@ -6,7 +6,7 @@
 				alt="" />
 			<view class="intro">
 				<p class="name">超级飞侠</p>
-				<p class="number">111111111111</p>
+				<p class="number">17200863742</p>
 			</view>
 		</view>
 		<view class="bottom">

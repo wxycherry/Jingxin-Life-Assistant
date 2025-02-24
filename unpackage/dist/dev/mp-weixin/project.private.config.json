@@ -3,5 +3,46 @@
   "projectname": "Jingxin-Life-Assistant",
   "setting": {
     "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pagescommunity/publish/publish",
+          "pathName": "pagescommunity/publish/publish",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/community/community",
+          "pathName": "pages/community/community",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/community/community",
+          "pathName": "pages/community/community",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pageshealthy/healthy/healthy",
+          "pathName": "pageshealthy/healthy/healthy",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesmy/search/search",
+          "pathName": "pagesmy/search/search",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
   }
 }

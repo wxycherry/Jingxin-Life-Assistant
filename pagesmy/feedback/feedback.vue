@@ -22,7 +22,7 @@
 			</view>
 			 
 		</view>
-		<button class="btn">提交</button>
+		<button class="btn" @click="publish">提交</button>
 	</view>
 </template>
 
@@ -35,6 +35,15 @@
       };
     },
     methods: {
+		publish(){
+			setTimeout(()=>{
+				wx.showToast({
+				  title: '提交成功',
+				  icon: 'success'
+				});
+			},3000)
+				
+		},
       // 删除图片
       deletePic(event) {
         this[`fileList${event.name}`].splice(event.index, 1);

@@ -28,6 +28,12 @@
         "search/search",
         "feedback/feedback"
       ]
+    },
+    {
+      "root": "pageshealthy",
+      "pages": [
+        "healthy/healthy"
+      ]
     }
   ],
   "window": {
